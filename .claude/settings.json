@@ -1,0 +1,9 @@
+{
+  "skills": [
+    {
+      "name": "talo-scheduler",
+      "description": "Genera programaciones completas de contenido de Instagram para El Mundo de Talo: reels, historias y carruseles con scripts, horarios óptimos y CTAs a YouTube. Úsalo con /talo-scheduler.",
+      "source": ".claude/skills/talo-scheduler.md"
+    }
+  ]
+}
