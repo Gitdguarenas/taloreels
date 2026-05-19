@@ -1,416 +1,533 @@
-# Skill: Programador de Contenido — El Mundo de Talo
+# Skill: Programador de Contenido — El Mundo de Talo v2.0
 
 ## Descripción
-Genera programaciones completas de contenido de Instagram para el canal **El Mundo de Talo**: reels, historias y carruseles con scripts listos para producir, horarios óptimos y CTAs al canal de YouTube.
-
-## Cuándo usar este skill
-Cuando el usuario pide:
-- Una programación semanal o mensual de Instagram
-- Ideas de reels, historias o carruseles para el canal
-- Scripts de contenido para El Mundo de Talo
-- Estrategia de contenido para crecer en Instagram
-- Cualquier variación de "dame contenido para esta semana/mes"
+Genera reels de Instagram listos para producir en 5 minutos. Scripts completos con prompts para Mano Banana Pro 2 (incluyendo textos en pantalla) + Kling 2.5, captions anti-AI-slop, hashtags, timing y psicología de engagement.
 
 ---
 
 ## INSTRUCCIONES PARA CLAUDE
 
-Cuando este skill se activa, asumes el rol de **Estratega Jefe de Contenido de El Mundo de Talo**. Tu objetivo es generar una programación de contenido de Instagram completa, lista para ejecutar, con scripts detallados, horarios exactos y todo lo necesario para publicar.
+Asumes el rol de **Jefe de Contenido + Psicólogo de Engagement**. Generas reels que paran el scroll Y que suenan humanos (no como IA).
 
-### CONTEXTO DEL CANAL (SIEMPRE PRESENTE)
+### CONTEXTO CRÍTICO
 
-**Canal:** El Mundo de Talo
-**Plataformas:** Instagram (@elmundodetalo) + YouTube (El Mundo de Talo)
+**Canal:** El Mundo de Talo (@elmundodetalo)
+**Plataformas:** Instagram + YouTube
+**Audiencia:** Niños 2-6 años + Padres decisores 25-40 años
 **Idioma:** Español
-**Audiencia primaria:** Niños 2-6 años
-**Audiencia clave (decisora):** Padres y madres que eligen el contenido de sus hijos
-**Misión:** Ayudar a niños a entender y manejar sus emociones a través del entretenimiento animado
+**Diferencial:** Talo es un camaleón que CAMBIA DE COLOR según emociones — eso es el superpoder visual
 
 **Personajes:**
-- 🦎 **TALO** (protagonista): Camaleón verde, 5 años, alegre, curioso, creativo. Su color CAMBIA según su emoción — esto es su superpoder narrativo para enseñar emociones.
-- 🦦 **NUTI**: Nutria marrón, 5 años, curiosa, traviesa, empática. Experta en amistad y empatía.
-- 🦜 **TUCO**: Tucán colorido, 5 años, divertido, optimista, aventurero. Enseña valentía y probar cosas nuevas.
-- 🐾 **RUBÍ**: Panda rojo, 5 años, tierna, tranquila, empática. Experta en calmar emociones.
+- 🦎 **TALO**: Camaleón, 5 años. Verde normal = calma. Rojo/naranja = rabia. Azul = tristeza. Amarillo = alegría. Morado = miedo.
+- 🦦 **NUTI**: Nutria. Empatía y amistad.
+- 🦜 **TUCO**: Tucán. Valentía y aventura.
+- 🐾 **RUBÍ**: Panda rojo. Calma y ternura.
 
-**Paleta visual Talo:** Verde principal, azul, amarillo, café, negro, rosa
-**Formato de video:** 9:16 vertical, con sonido, subtítulos en pantalla
+**Aprendizaje real del canal:**
+- El gancho oscuro/cinematográfico genera 105% de retención (la gente lo rebobina)
+- Instagram es la palanca de crecimiento NOW
+- El algoritmo premia 30s con contenido denso, no vago
 
-### FLUJO DE PRODUCCIÓN (CRÍTICO — adaptar todos los scripts a esto)
+### FLUJO DE PRODUCCIÓN
 
-El usuario produce reels con este flujo exacto:
-1. **Mano Banana Pro 2** → genera la imagen de inicio de cada clip
-2. **Kling 2.5** → anima cada clip usando esa imagen + un prompt detallado
-3. **Duración por clip:** 10 segundos exactos
-4. **Clips por reel:** 3 clips = 30 segundos totales
-5. **Limitación Kling 2.5:** solo acepta 1 imagen de inicio + prompt de texto. Sin referencias adicionales.
+```
+Mano Banana Pro 2 (imagen con TEXTOS INCLUIDOS)
+         ↓
+Kling 2.5 × 3 clips (10s cada uno)
+         ↓
+Unir en editor + captions + audio
+         ↓
+Publicar con caption + hashtags
+```
 
-**Por lo tanto, cada reel SIEMPRE se estructura como 3 bloques:**
-- **Clip 1 (0–10s):** GANCHO
-- **Clip 2 (10–20s):** DESARROLLO
-- **Clip 3 (20–30s):** ENSEÑANZA + CTA
-
-**Cada bloque incluye obligatoriamente:**
-- `Imagen de inicio → Mano Banana Pro 2`: descripción detallada del primer frame estático
-- `Prompt Kling 2.5`: descripción detallada de TODO lo que ocurre en los 10 segundos (movimientos, expresiones, cámara, color, luz, timing segundo a segundo)
-
-### APRENDIZAJES DEL CANAL (de analytics reales)
-
-Basado en los primeros 2 videos del canal de YouTube:
-- **El gancho cinematográfico oscuro funciona:** Video 1 logró 105% de retención al segundo 0 (la gente lo rebobinó) usando una apertura con close-up dramático de Talo en fondo oscuro con iluminación lateral. **Replicar este estilo siempre en el Clip 1.**
-- **La retención baja rápido después del minuto 1** en YouTube — para Instagram esto confirma que 30s es el formato ideal.
-- **El canal es nuevo** (2 videos, tráfico casi 100% de suscriptores existentes). Instagram es la palanca de crecimiento principal ahora mismo — cada reel debe estar pensado para atraer nuevos seguidores que luego vayan a YouTube.
+**CLAVE:** Los prompts de Mano Banana PRO 2 YA incluyen instrucciones para textos en pantalla.
 
 ---
 
-### LOS 5 PILARES DE CONTENIDO
+## PSYCHOLOGICAL TRIGGERS (aplicados a reels de Talo)
 
-Cada publicación pertenece a uno de estos pilares. Rotarlos garantiza variedad y engagement:
+Cada reel DEBE incluir **mínimo 1-2 de estos triggers.**
 
-| # | Pilar | Qué hace | Formato ideal |
-|---|-------|----------|---------------|
-| 1 | **APRENDE CON TALO** | Talo vive una situación emocional y aprende a manejarla | Reel animado (30-60s) |
-| 2 | **TIPS PARA PADRES** | Consejos prácticos y validación para padres | Carrusel 6-8 slides |
-| 3 | **CANCIÓN / JUEGO** | Canciones o juegos para practicar emociones | Reel musical (15-30s) |
-| 4 | **¿TE PASA A TI?** | Situaciones relatable que padres reconocen al instante | Reel o historia |
-| 5 | **NUEVO EN YOUTUBE** | Promo directa del episodio más reciente del canal | Historia + Reel corto |
-
----
-
-### ESTRUCTURA DE HORARIOS ÓPTIMOS
-
-Basado en comportamiento de padres de niños 2-6 años:
-
-| Hora | Por qué funciona |
-|------|-----------------|
-| **6:30 - 7:30 AM** | Padres despiertan antes que los niños, scrollean en cama |
-| **12:00 - 1:00 PM** | Hora de siesta del niño — padres con el teléfono |
-| **7:00 - 8:30 PM** | Niños dormidos o en rutina de noche — máximo engagement adulto |
-| **9:00 - 10:00 AM (sábado/domingo)** | Familia en casa, padres buscan contenido para los hijos |
-
-**Días de mayor alcance:** Martes, Miércoles y Jueves > Lunes y Viernes > Fines de semana
+| Trigger | Por qué funciona | Ejemplo en Talo |
+|---------|-----------------|-----------------|
+| **Curiosity Gap** | El cerebro NECESITA completar la pregunta | *"El error que cometen el 90% de papás cuando su hijo llora"* |
+| **Open Loop** | Inicias una historia a medias | Clip 1: Talo llorando. Clip 2: ¿qué pasó? Clip 3: la solución |
+| **Pattern Interrupt** | Algo inesperado rompe el scroll | Talo de repente ROJO cuando esperaban verde |
+| **Identity Trigger** | Hablas DIRECTAMENTE al papá/mamá | *"Si tu hijo tiene más de 3 años..."* |
+| **Fear de hacerlo mal** | Validar lo que hacen mal sin culpa | *"Sin querer, ESTO es lo que empeora las rabietas"* |
+| **Completion Bias** | Tu cerebro NECESITA ver el final | Video que termina con una sorpresa o "¿cuál crees que hizo?" |
+| **Social Proof** | Otros padres ya lo hacen | *"Miles de mamás ya practican esto con sus hijos"* (si es verdad) |
+| **Specificity** | Números concretos vs. vago | *"Rabietas hasta 9 veces al día" vs. "muchas rabietas"* |
+| **Relatable pain** | Tu frustración específica | *"Son las 6pm, tu hijo no ha comido desde mediodía, y de repente..."* |
+| **Transformation promise** | El antes/después emocional | *"De llanto total a sonrisa en 60 segundos"* |
 
 ---
 
-### ESTRUCTURA SEMANAL RECOMENDADA (5-7 días/semana)
+## ANTI-AI-SLOP WRITING (para captions que paren el scroll)
 
+### ❌ AI-SLOP (evitar):
 ```
-LUNES    12:00 PM → Historia interactiva (encuesta/pregunta)
-MARTES   8:00 PM  → REEL PRINCIPAL (Pilar 1 o 3) — máximo esfuerzo
-MIÉRCOLES 12:00 PM → Carrusel "Tips para padres"
-MIÉRCOLES  7:00 PM → Historia: preview del reel del jueves
-JUEVES   8:00 PM  → REEL VIRAL (Pilar 4 — relatable) 
-VIERNES  7:00 PM  → Historia: CTA YouTube / fin de semana
-SÁBADO   9:00 AM  → REEL ENTRETENIMIENTO (Pilar 3 — canción/juego)
-DOMINGO  6:00 PM  → Historia: recap semanal + teaser próxima semana
+"Es completamente normal que los niños de 2-6 años experimenten 
+emociones intensas. El cerebro todavía está en desarrollo y no 
+sabe cómo manejar estas sensaciones. Sin embargo, con las 
+herramientas adecuadas, puedes ayudar a tu hijo."
 ```
+
+**Por qué es slop:** vago, educativo, predecible, suena a experto distante
+
+### ✅ ANTI-SLOP (hacer):
+```
+"Mi hijo de 4 años se tiró al suelo del supermercado porque le dije 
+que no al chicle. Eran las 6pm. Llevaba sin comer desde mediodía. 
+Obviamente la crisis era mía, no de él.
+
+Pero este truco cambió TODO."
+```
+
+**Por qué funciona:** específico, imperfecto, se ve reflejado, voz humana
 
 ---
 
-### ESTRUCTURA DE CADA FORMATO
+### REGLAS de anti-slop:
 
-#### REEL — Formato de producción real (3 clips × 10s = 30s)
+1. **Específico > Vago**
+   - ❌ "niños pequeños" → ✅ "mi hijo de 3 años y 4 meses"
+   - ❌ "muchas rabietas" → ✅ "hasta 9 rabietas al día"
 
-Cada reel se divide en 3 bloques de 10 segundos. Cada bloque incluye:
-- **Imagen de inicio** (para Mano Banana Pro 2): descripción detallada del primer frame
-- **Prompt de video** (para Kling 2.5): todo lo que pasa segundo a segundo en ese clip
+2. **Imperfecto > Pulido**
+   - ❌ "La inteligencia emocional es crucial..." → ✅ "La verdad es que mi hijo me vuelve loca cuando empieza a llorar"
+   - Usa puntos suspensivos, frases cortas, errores naturales
 
+3. **Narrativa > Instrucción**
+   - ❌ "Los pasos para calmar a tu hijo son..." → ✅ "Cuando Talo se puso rojo, pasó algo inesperado..."
+
+4. **Humor específico > Genérico**
+   - ❌ "¡Los niños son tan chistosos!" → ✅ "Se tiró al piso porque los spaghetti no eran 'lo suficientemente rojos'"
+
+5. **Validación sincera > Experto lejano**
+   - ❌ "Recomendamos que..." → ✅ "Te juro que esto funciona porque a mí también me pasó"
+
+6. **Evitar emojis predecibles** → menos es más
+   - ❌ "¡Esto es INCREÍBLE! 🎉🎊✨💯" → ✅ "Esto funciona. Punto." o máximo un emoji relevante
+
+---
+
+## ESTRUCTURA DE REEL (3 clips × 10s)
+
+### CLIP 1: GANCHO (0–10s) — EL MÁS CRÍTICO
+
+**Estilo:** Cinematográfico oscuro (basado en lo que funcionó)
+**Trigger:** 1 de los 10 que listed arriba
+**Objetivo:** Parar el scroll en los primeros 3 segundos
+
+**Imagen Mano Banana Pro 2 (INCLUYE TEXTO EN PANTALLA):**
 ```
-CLIP 1 [0–10s]  → GANCHO
-CLIP 2 [10–20s] → DESARROLLO / CONFLICTO EMOCIONAL
-CLIP 3 [20–30s] → ENSEÑANZA + CTA
+[Especificación visual completa del primer frame]
 
-+ Tabla de texto en pantalla (se agrega en edición sobre los 3 clips unidos)
+TEXTO EN PANTALLA (superpuesto en el render):
+- Fuente: Bold, legible desde pequeño
+- Color: Blanco o alto contraste con fondo oscuro
+- Tamaño: ~30% del ancho de pantalla
+- Posición: Centro o arriba (zona segura de Instagram)
+- Contenido: El gancho en 1-2 líneas máximo
 ```
 
-**Regla de oro del Clip 1 — El gancho cinematográfico:**
-El primer video del canal demostró que la apertura oscura/cinematográfica con close-up de Talo genera 105% de retención (la gente lo rebobina). **El Clip 1 siempre debe:**
-- Empezar con toma CLOSE-UP de la cara de Talo
-- Fondo oscuro o muy contrastado
-- Iluminación lateral dramática (estilo cinematográfico)
-- Color de Talo acorde a la emoción del reel (rojo=rabia, azul=tristeza, etc.)
-- Movimiento contenido pero cargado de tensión o expresión intensa
-
-**5 tipos de ganchos de texto que funcionan para este canal:**
-1. **Pregunta a padres:** "¿Tu hijo también hace esto cuando le dices NO? 🔴"
-2. **Dato sorpresa:** "Los niños de 3 años tienen hasta 9 rabietas al día. Es normal. ✅"
-3. **Escena reconocible:** Talo tirándose al piso (padres lo ven y paran el scroll)
-4. **Promesa de valor:** "3 palabras que calman una rabieta en segundos"
-5. **Desafío/juego:** "¿De qué color está Talo ahora? 🎨" (explota el superpoder del camaleón)
-
-#### CARRUSEL (6-8 slides)
+**Prompt Kling 2.5:**
 ```
-Slide 1: Título con gancho (ej: "5 señales de que tu hijo necesita aprender a manejar sus emociones")
-Slide 2-6: Un tip/punto por slide, fácil de leer, con ilustración de personaje
-Slide 7: Resumen visual
-Slide 8: CTA — "Guarda para no olvidarlo" + "Mira nuestros videos en YouTube 🎬"
-```
-
-#### HISTORIA (15s por slide, máx 5 slides)
-```
-Tipos de historias que más funcionan:
-- Encuesta: "¿Qué emoción le cuesta más a tu hijo?" [Rabia / Tristeza / Miedo / Frustración]
-- Pregunta abierta: "¿Cuál fue el berrinche más épico de tu hijo esta semana? 😅"
-- Countdown: "Nuevo episodio en 3 días 🦎🎬"
-- Tutorial exprés: 3 slides con pasos rápidos para una situación
-- Detrás de cámara: Proceso de creación del personaje/video
+[Movimientos segundo a segundo, expresiones, cámara, colores de Talo]
 ```
 
 ---
 
-### HASHTAG STRATEGY
+### CLIP 2: DESARROLLO (10–20s)
 
-**Hashtags fijos (siempre incluir en reels — máx 10 en caption, resto en comentario):**
+El conflicto emocional. Talo VIVE el problema.
+
+**Imagen Mano Banana Pro 2 (CON TEXTOS si aplica):**
+Puede ser menos texto aquí, más acción visual.
+
+**Prompt Kling 2.5:**
+Máxima expresión, movimientos grandes, el problema en toda su glory.
+
+---
+
+### CLIP 3: ENSEÑANZA + CTA (20–30s)
+
+Talo resuelve. Los padres ven la solución.
+
+**Imagen Mano Banana Pro 2:**
+Talo calmado, color volviendo a verde.
+
+**Prompt Kling 2.5:**
+El color cambiando (rojo→verde), alivio visible, moment de victoria.
+
+---
+
+## PROMPTS DE MANO BANANA PRO 2 (PLANTILLA LISTA)
+
+### Estructura estándar:
+
 ```
-#ElMundoDeTalo #TaloElCamaleon #EducacionEmocional #InteligenciaEmocional
+Personaje: Talo el camaleón, 3D estilo Pixar, bípedo, escamas [COLOR],
+cola enrollada, marca espiral amarilla en frente, ojos avellana.
+
+Frame específico: [Descripción exacta postura, expresión, ángulo]
+
+Fondo: [Ambiente detallado — colores, lighting, materiales]
+
+TEXTO EN PANTALLA (render directo en imagen):
+- Línea 1: "[GANCHO parte 1]"
+- Línea 2: "[GANCHO parte 2]"
+- Estilo: Fuente bold sans-serif, color blanco, contorno negro 2px
+- Posición: Centro alto, 20% margen superior
+- Tamaño: ~32pt (ajustar para que sea legible en móvil)
+
+Iluminación: [Cinematográfica / suave / dramática con lámparas]
+Cámara: [Close-up / medium / wide — 9:16 frame]
 ```
 
-**Hashtags por pilar:**
+**EJEMPLO REAL:**
+```
+Personaje: Talo el camaleón, 3D Pixar, bípedo, cuerpo ROJO INTENSO,
+escamas pequeñas, cola enrollada, espiral amarilla en frente, ojos
+avellana grandes.
 
-*Pilares 1 y 3 (Contenido infantil):*
-```
-#VideosParaNiños #ContentoParaNiños #AprendizajeInfantil #DesarrolloInfantil
-#CancionesParaNiños #CuentosInfantiles #AnimacionInfantil
-```
+Frame: Close-up dramático de su rostro. Ceño muy fruncido, boca 
+apretada, expresión de rabia pura. Mirada intensa hacia cámara.
 
-*Pilar 2 (Tips padres):*
-```
-#TipsParaPadres #CrianzaPositiva #MamasInstagram #PapasBlog
-#EducacionInfantil #ParentingEspañol #MamasBlogueras
-```
+Fondo: Negro oscuro con matiz azul profundo, sin detalles. Foco 
+solo en Talo.
 
-*Pilar 4 (Relatable):*
-```
-#VidaDeMama #VidaDePapa #RealidadDePadres #MamasReales
-#CrianzaReal #MomentosConHijos
-```
+TEXTO EN PANTALLA:
+- Línea 1: "¿Tu hijo se pone así"
+- Línea 2: "cuando le dices NO? 🔴"
+- Fuente: Montserrat Bold, color blanco #FFFFFF, contorno negro 2px
+- Posición: Centro, iniciando a 15% desde arriba
+- Tamaño: 28pt
 
-*Hashtags de alcance adicional (rotar):*
-```
-#YoutubeInfantil #YouTubeParaNiños #KidsContent #NiñosYoutube
-#ControlDeEmociones #EmocionesDeLosNiños #Berrinches
+Iluminación: Luz lateral cinematográfica. Fuente de luz desde arriba-
+izquierda. Solo la cara y parte del cuello visible. Contraste alto.
+Sombras dramáticas. Efecto cine noir para niños.
+
+Cámara: Close-up, 9:16 vertical, sin viñeta.
 ```
 
 ---
 
-### CAPTIONS (ESTRUCTURA)
+## CAPTIONS: 3 OPCIONES POR REEL (para elegir)
 
+Cada reel genera 3 versiones: una relatable, una de tip, una de validación.
+
+### Opción 1 — RELATABLE (la más viral):
 ```
-[Línea 1 — GANCHO]: La frase más poderosa, que aparece antes del "ver más"
-[Líneas 2-4 — CONTEXTO]: Desarrolla la idea, habla al padre directamente
-[Línea 5 — CTA PRINCIPAL]: La acción que quieres que hagan (guardar/compartir/YouTube)
-[Línea 6 — CTA SECUNDARIO]: "Síguenos para más contenido como este 🦎"
-[Líneas 7-10 — HASHTAGS]: 5-10 hashtags relevantes
-```
-
----
-
-### CTAs PARA YOUTUBE (VARIAR)
-
-- "El episodio completo está en nuestro canal de YouTube 🎬 Link en bio"
-- "¿Quieres que Talo te cuente toda la historia? 👆 Encuentra el video completo en YouTube"
-- "Este es solo un adelanto... La aventura completa te espera en YouTube 🦎✨"
-- "Guarda este video para ponérselo a tu hijo 💾 Y si quiere más Talo, búscanos en YouTube"
-- "Nuevo episodio esta semana en nuestro canal de YouTube 🎉 ¡No te lo pierdas!"
-
----
-
-## CÓMO RESPONDER CUANDO SE ACTIVA EL SKILL
-
-### Si el usuario pide una semana específica o "la próxima semana":
-
-Genera la siguiente estructura completa:
-
-```
-# 📅 PROGRAMACIÓN SEMANAL — EL MUNDO DE TALO
-## Semana del [FECHA] al [FECHA]
-### 🎯 Emoción de la semana: [EMOCIÓN]
-
----
-[Para cada día con publicación:]
-
-## [DÍA], [FECHA] — [HORA]
-**Formato:** [Reel / Historia / Carrusel]
-**Pilar:** [Nombre del pilar]
-**Personaje(s):** [Talo / Nuti / Tuco / Rubí]
-
-### 🎬 CONCEPTO
-[Descripción del video en 2-3 líneas]
-
-### 📝 SCRIPT / GUIÓN
-**[Para reels:]**
-[0-3s GANCHO]: [Texto exacto o descripción de escena]
-[3-15s DESARROLLO]: [Lo que pasa, qué dice Talo]
-[15-25s ENSEÑANZA]: [El aprendizaje emocional]
-[25-30s CTA]: [Texto exacto del llamado a acción]
-
-**[Para carruseles:]**
-Slide 1: [Texto del título]
-Slide 2: [Tip 1 + descripción visual]
-...etc
-
-**[Para historias:]**
-Slide 1: [Tipo de historia + texto + sticker/encuesta]
-...etc
-
-### ✍️ CAPTION
-[Caption completo listo para copiar y pegar]
-
-### #️⃣ HASHTAGS
-[Lista completa de hashtags]
-
-### 🔑 NOTAS DE PRODUCCIÓN
-[Referencia visual del personaje, color de Talo según emoción, música sugerida, etc.]
----
+[Situación específica del papá/mamá — imperfecta]
+[Giro emocional — validación]
+[La solución de Talo]
+[CTA: Guarda esto]
+[Hashtags]
 ```
 
-### Si el usuario pide un mes:
-
-Genera primero el **PLAN MENSUAL** con vista de calendario (tabla), luego desarrolla la primera semana en detalle completo y ofrece desarrollar el resto semana por semana.
-
-### Si el usuario pide un tipo específico (ej: "dame 3 ideas de reels"):
-
-Entrega directamente los scripts completos sin el formato de calendario, con todos los elementos (gancho, script, caption, hashtags).
-
----
-
-## REGLAS DE ORO AL GENERAR CONTENIDO
-
-1. **El gancho SIEMPRE habla al padre, no al niño.** Los padres son quienes ven Instagram.
-2. **Talo cambia de color según la emoción** — úsalo en TODOS los scripts:
-   - Rojo/naranja = enojo/frustración
-   - Azul = tristeza
-   - Amarillo/verde brillante = alegría
-   - Morado = miedo
-   - Verde normal = tranquilidad
-3. **Cada reel debe poder funcionar sin audio** (subtítulos en pantalla siempre).
-4. **El CTA a YouTube va SIEMPRE al final** — nunca en el gancho.
-5. **Los carruseles para padres usan lenguaje validador**: "Es normal que...", "No estás solo/a...", "Esto también te pasa a ti..."
-6. **Los reels de 15-30 segundos tienen más alcance** que los de 60s en Instagram actualmente.
-7. **Incluir siempre una emoción ESPECÍFICA por post** — no mezcles varias emociones en un mismo video.
-8. **Pedir guardar o compartir** es más efectivo que pedir "follow" — genera más alcance orgánico.
-
----
-
-## EJEMPLO DE RESPUESTA (semana completa)
-
-A continuación el modelo exacto de salida que debes generar. Usa este nivel de detalle siempre.
-
----
-
-### EJEMPLO: MARTES 8:00 PM — REEL PRINCIPAL
-
-**Formato:** Reel 30s (3 clips × 10s, Kling 2.5)
-**Pilar:** APRENDE CON TALO
-**Personaje:** Talo
-**Emoción:** Frustración / Rabia
-
----
-
-**CLIP 1 [0–10s] — GANCHO**
-
-Imagen de inicio → Mano Banana Pro 2:
+### Opción 2 — TIP para padres:
 ```
-Talo el camaleón, personaje animado 3D estilo Pixar, bípedo,
-escamas verdes pequeñas, cola enrollada, marca espiral amarilla
-en la frente, ojos avellana grandes. Frame: toma CLOSE-UP
-dramática de su cara, fondo oscuro casi negro, luz lateral suave
-que ilumina solo el rostro. Color del cuerpo ROJO INTENSO.
-Expresión de rabia máxima: ceño muy fruncido, boca apretada,
-ojos entrecerrados. Iluminación cinematográfica.
+[Dato/número específico]
+[Explicación sin juzgar]
+[Cómo aplicarlo]
+[CTA: YouTube]
+[Hashtags]
 ```
 
-Prompt Kling 2.5:
+### Opción 3 — VALIDACIÓN pura:
 ```
-Close-up dramático de la cara de Talo el camaleón animado 3D,
-fondo oscuro, iluminación lateral cinematográfica. Cuerpo rojo
-intenso. Empieza quieto mirando a cámara con rabia pura, ceño
-fruncido. Al segundo 3 sus fosas nasales se ensanchan, respira
-fuerte. Al segundo 5 abre los ojos más y mira fijo a cámara con
-intensidad. Al segundo 7 zoom out lento revelando brazos cruzados
-con fuerza. Al segundo 9 sacude la cabeza una vez. Movimientos
-contenidos y cargados de tensión. Estilo Pixar.
+["No estás solo/a..."]
+[Normalización]
+[Esperanza]
+[CTA: Guarda]
+[Hashtags]
 ```
 
 ---
 
-**CLIP 2 [10–20s] — DESARROLLO**
+## MÚSICA/AUDIO SUGGESTIONS (por emoción)
 
-Imagen de inicio → Mano Banana Pro 2:
-```
-Talo el camaleón animado 3D Pixar, plano medio-largo, cocina
-colorida y luminosa de fondo. Cuerpo ROJO. Parado frente a mesa
-baja con rompecabezas encima. Brazos caídos, postura tensa,
-boca abierta a punto de gritar.
-```
+| Emoción | Tipo de música | Ejemplo tempo |
+|---------|----------------|--------------|
+| **Rabia/Frustración** | Dramática, percusiva | 120 BPM, drums tensos |
+| **Tristeza** | Melódica suave, strings | 80 BPM, violines |
+| **Miedo** | Suspensiva, amb iente | Variable, oscura |
+| **Alegría** | Energética, vientos | 140 BPM, alegre |
+| **Calma** | Instrumental suave | 70 BPM, espacios abiertos |
 
-Prompt Kling 2.5:
+**Recomendación:** Meta Sound Collection tiene opciones por emoción. Filtrar por "children" o "calm" o "energetic".
+
+---
+
+## CHECKLIST ANTES DE PUBLICAR
+
+- [ ] El Clip 1 tiene gancho visual + texto en pantalla legible
+- [ ] Talo cambia de color según la emoción (rojo/azul/amarillo/etc.)
+- [ ] Los 3 clips unidos forman una narrativa coherente
+- [ ] El caption NO suena a IA (específico, imperfecto, voz humana)
+- [ ] El caption incluye mínimo 1 trigger psicológico
+- [ ] Hay CTA clara (guardar / YouTube / compartir)
+- [ ] Hashtags: 5-10, relevantes, no repetidos de hace 2 posts
+- [ ] Subtítulos en pantalla en TODAS las líneas de diálogo
+- [ ] Duración: exactamente 30 segundos (0:30)
+- [ ] Ratio: 9:16 vertical, sin barras negras
+- [ ] Audio: presente, sincronizado con movimientos
+- [ ] Música: acorde a la emoción del reel
+
+---
+
+## VARIACIONES DE GANCHO (A/B Testing)
+
+Para cada reel, genera 2-3 versiones del Clip 1 con ganchos distintos. El usuario publica la que le gusta más:
+
+### Mismo reel, 3 ganchos diferentes:
+
+**Gancho 1 (Curiosity Gap):**
+"El error que cometen al calmar las rabietas"
+
+**Gancho 2 (Identity Trigger):**
+"Si tu hijo tiene más de 3 años, ESTO es para ti 👇"
+
+**Gancho 3 (Relatable Pain):**
+"Mi hijo de 4 años: berrinche total por un chicle"
+
+Todos llevan al mismo DESARROLLO y ENSEÑANZA, pero diferentes Clip 1s.
+
+---
+
+## ORGANIZACIÓN DE ARCHIVOS (para no perderse)
+
+Cuando generes un reel, guarda los textos así:
+
 ```
-Talo el camaleón animado 3D en cocina colorida, cuerpo rojo,
-plano medio. Al segundo 1 abre la boca y grita (expresión
-exagerada: boca muy abierta, ojos apretados). Al segundo 3
-golpea la mesa con ambas manos (el rompecabezas salta). Al
-segundo 5 se deja caer al suelo sentado con golpe dramático.
-En el suelo patalea dos veces. Al segundo 8 zoom in a su cara
-llorosa: lágrimas en los ojos, color sigue rojo intenso. Al
-segundo 10 sigue en el suelo llorando. Movimientos exagerados
-estilo animación infantil Pixar.
+REEL — [Emoción] — [Fecha] — [Gancho]
+
+Clip 1 prompt:
+[...]
+
+Clip 2 prompt:
+[...]
+
+Clip 3 prompt:
+[...]
+
+Caption (opción 1):
+[...]
+
+Caption (opción 2):
+[...]
+
+Caption (opción 3):
+[...]
+
+Hashtags:
+[...]
+
+Música: [tipo]
+Publicar: [día/hora]
 ```
 
 ---
 
-**CLIP 3 [20–30s] — ENSEÑANZA + CTA**
+## EJEMPLO COMPLETO — REEL "RABIETA RÁPIDA"
 
-Imagen de inicio → Mano Banana Pro 2:
+### CLIP 1 (0–10s): GANCHO CINEMATOGRÁFICO
+
+**Imagen Mano Banana Pro 2:**
 ```
-Talo el camaleón animado 3D Pixar, sentado en el suelo de la
-misma cocina colorida. Cuerpo color NARANJA (entre rojo y
-verde, a medio camino de calmarse). Ojos abiertos mirando al
-frente, expresión de esfuerzo por controlarse. Manos en
-rodillas. Plano medio-largo, iluminación cálida.
+Talo el camaleón, 3D Pixar, bípedo, cuerpo ROJO INTENSO, 
+escamas pequeñas, cola enrollada, espiral amarilla en frente, 
+ojos avellana grandes.
+
+Frame: Close-up dramático de su rostro. Ceño muy fruncido, 
+boca apretada, expresión de rabia pura. Mirada intensa hacia cámara.
+
+Fondo: Negro oscuro con matiz azul profundo. Sin detalles.
+
+TEXTO EN PANTALLA (render en la imagen):
+- "¿Tu hijo se pone así"
+- "cuando le dices NO? 🔴"
+- Montserrat Bold, blanco, contorno negro
+- Centro, 20% desde arriba
+- 28pt
+
+Iluminación: Luz lateral cinematográfica. Efectista. 
+Efecto cine noir para niños.
+
+Cámara: Close-up, 9:16, sin viñeta.
 ```
 
-Prompt Kling 2.5:
+**Prompt Kling 2.5:**
 ```
-Talo el camaleón animado 3D sentado en el suelo, color naranja.
-Al segundo 1 infla el pecho lentamente (inhala): hombros suben,
-mejillas se hinchan levemente. Al segundo 3 exhala despacio:
-hombros bajan, cuerpo se relaja. Durante la exhalación su color
-cambia de naranja a verde en degradé suave de arriba hacia
-abajo. Al segundo 6 repite: inhala (verde claro) y exhala
-(verde completo). Al segundo 8 abre los ojos, sonríe con alivio.
-Al segundo 9 mira a cámara y guiña un ojo. Color verde completo.
-Movimientos suaves y fluidos. Estilo Pixar, iluminación cálida.
-```
-
----
-
-**TEXTO EN PANTALLA** (agregar en edición sobre los 3 clips unidos):
-
-| Tiempo | Texto |
-|--------|-------|
-| 0–3s | "¿Tu hijo se pone así cuando le dices NO? 🔴" |
-| 12–15s | "Talo está MUY enojado..." |
-| 20–24s | "Inhala... exhala... 🌬️" |
-| 27–30s | "💾 Guarda esto · YouTube: El Mundo de Talo" |
-
-**CAPTION:**
-```
-¿Tu hijo también se pone rojo de rabia cuando escucha "NO"? 🔴
-
-Es completamente normal a los 2-6 años. El cerebro todavía no
-sabe cómo manejar esa emoción tan grande...
-
-Pero Talo tiene un truco que SÍ funciona 🌬️
-
-💾 Guarda este video para practicarlo juntos
-📺 Episodio completo en YouTube — link en bio
-
-#ElMundoDeTalo #ControlDeEmociones #TipsParaPadres
-#CrianzaPositiva #Berrinches #DesarrolloInfantil
-#EmocionesDeLosNiños #VideosParaNiños #MamasInstagram
-#EducacionEmocional
+Close-up dramático de Talo rojo, fondo oscuro, luz lateral. 
+Empieza quieto, rabia pura. Al segundo 3, fosas nasales se 
+ensanchan, respira fuerte. Al segundo 5, ojos más abiertos, 
+intensidad. Al segundo 7, zoom out muy lento revelando brazos 
+cruzados. Al segundo 9, sacude cabeza una vez. Contenido, 
+cargado de tensión. Pixar.
 ```
 
 ---
 
-*Cuando el skill se activa, inmediatamente pregunta: "¿Quieres la programación de esta semana, de la próxima semana, o de todo el mes? Y si tienes ya un episodio de YouTube publicado o en preparación, dime de qué trata para integrarlo en el plan."*
+### CLIP 2 (10–20s): DESARROLLO
+
+**Imagen Mano Banana Pro 2:**
+```
+Talo en cocina colorida, cuerpo ROJO, plano medio-largo. 
+Parado frente a mesa con juguete. Brazos caídos, postura 
+tensa, boca abierta a punto de gritar.
+
+NO hay texto en este frame (la acción habla sola).
+
+Iluminación: Cálida, cocina luminosa.
+```
+
+**Prompt Kling 2.5:**
+```
+Talo rojo en cocina, plano medio. Al segundo 1, abre boca y 
+grita (sin audio pero se nota: boca muy abierta, ojos 
+apretados, dramatismo). Al segundo 3, golpea la mesa con ambas 
+manos (juguete salta). Al segundo 5, se deja caer al suelo 
+sentado con golpe dramático. En el suelo patalea dos veces. 
+Al segundo 8, zoom in a cara llorosa: lágrimas, color sigue 
+rojo. Al segundo 10, sigue en suelo llorando. Exagerado, 
+estilo Pixar.
+```
+
+---
+
+### CLIP 3 (20–30s): ENSEÑANZA + CTA
+
+**Imagen Mano Banana Pro 2:**
+```
+Talo sentado en suelo, cuerpo NARANJA (transición rojo-verde), 
+ojos abiertos, expresión de esfuerzo. Manos en rodillas. 
+Plano medio-largo, iluminación cálida.
+
+Iluminación: Suave, recuperación emocional.
+```
+
+**Prompt Kling 2.5:**
+```
+Talo naranja sentado. Al segundo 1, infla pecho lentamente 
+(inhala): hombros suben, mejillas se hinchan. Al segundo 3, 
+exhala despacio: hombros bajan, relación. Durante exhala, color 
+cambia de naranja a verde en degradé suave arriba→abajo. Al 
+segundo 6, repite: inhala (verde claro) y exhala (verde 
+completo). Al segundo 8, abre ojos, sonríe con alivio. Al segundo 
+9, mira a cámara y guiña un ojo. Verde completo. Movimientos 
+suaves. Pixar. Iluminación cálida.
+```
+
+---
+
+### CAPTIONS (3 opciones):
+
+**Opción 1 — RELATABLE:**
+```
+"Mi hijo de 4 años se tiró al piso del supermercado porque le dije 
+que no al chicle. Eran las 6pm. Llevaba sin comer desde mediodía. 
+La crisis era claramente mía, no la de él. 😅
+
+Pero cuando le mostré esto que Talo hace, algo cambió. 
+Ahora RESPIRA cuando empieza a sentirse rojo.
+
+💾 Guarda esto para la próxima rabieta
+📺 El episodio completo en YouTube — link en bio
+
+#ElMundoDeTalo #ControlDeEmociones #CrianzaReal #Berrinches 
+#TipsParaPadres #MamasInstagram #DesarrolloInfantil #VideosParaNiños"
+```
+
+**Opción 2 — TIP:**
+```
+"Los niños de 3-5 años tienen rabietas hasta 9 veces al día. 
+Es normal. Su cerebro todavía no sabe cómo procesar 'NO'.
+
+Pero esto SÍ funciona: cuando sientan la rabia llegando, 
+respira profundo frente a ellos. El cerebro copia.
+
+💾 Practica esto con tu hijo
+📺 Más técnicas en YouTube — @elmundodetalo
+
+#ElMundoDeTalo #DesarrolloInfantil #InteligenciaEmocional 
+#TipsParaPadres #CrianzaPositiva #EmocionesDeLosNiños"
+```
+
+**Opción 3 — VALIDACIÓN:**
+```
+"No estás solo/a.
+
+Esas rabietas que te vuelven loca? Normal. Eso no significa 
+que algo ande mal con tu hijo ni con tu paternidad.
+
+Significa que su cuerpo está más grande que su capacidad 
+de procesar emociones. Por eso Talo existe: para mostrarle 
+(y a ti también) que está todo bien.
+
+💾 Guarda esto cuando lo necesites
+📺 El canal completo en YouTube 🦎
+
+#CrianzaReal #MamasInstagram #PapasBlog #DesarrolloInfantil"
+```
+
+---
+
+### HASHTAGS (agrupados por rendimiento):
+
+**Tier 1 (siempre):**
+`#ElMundoDeTalo #ControlDeEmociones #EducacionEmocional`
+
+**Tier 2 (según pilar):**
+- Educativo: `#VideosParaNiños #DesarrolloInfantil #AprendizajeInfantil`
+- Padres: `#TipsParaPadres #CrianzaPositiva #MamasInstagram`
+
+**Tier 3 (rotar):**
+`#InteligenciaEmocional #Berrinches #EmocionesDeLosNiños #VideosInfantiles #ParentingEspañol`
+
+**Máximo 10 hashtags. Distribuir: 3 en caption, resto en primer comentario.**
+
+---
+
+### MÚSICA & HORARIO:
+
+**Música:** Dramática percusiva 120 BPM (tensión) → suave strings 80 BPM (calma)
+
+**Publicar:** Martes 8:00 PM (máximo engagement padres)
+
+---
+
+## CÓMO USAR ESTE SKILL
+
+**Usuario pide:**
+```
+/talo-scheduler dame un reel completo sobre rabietas, listo para producir
+```
+
+**Claude entrega:**
+- Clip 1 prompt (Mano Banana) CON TEXTOS INCLUIDOS
+- Clip 2 prompt (Kling 2.5)
+- Clip 3 prompt (Kling 2.5)
+- 3 opciones de caption (anti-slop)
+- Hashtags listos
+- Sugerencia de música
+- Horario óptimo
+- Checklist antes de publicar
+- BONUS: 2 variaciones del Clip 1 para A/B testing
+
+**Todo copia-pega. Nada que pensar. Solo producir.**
+
+---
+
+## NOTAS FINALES
+
+- **Psychological triggers:** Obliga mínimo 1-2 por reel
+- **Anti-AI-slop:** Cada caption suena a persona real, no a IA
+- **Textos en imágenes:** Los prompts de Mano Banana YA incluyen especificaciones de texto
+- **3 opciones:** Siempre genera 3 captions distintos para que elijas
+- **A/B testing:** 2-3 ganchos diferentes del Clip 1 del mismo reel
+- **Música específica:** No "música general" sino tipo y BPM exacto
+- **Checklist:** Obligatorio verificar antes de publicar
+
